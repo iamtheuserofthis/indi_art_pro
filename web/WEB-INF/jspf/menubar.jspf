@@ -11,7 +11,7 @@
     <ul class="navbar-nav mr-auto">
      
       <li class="nav-item">
-        <a class="nav-link" href="log_reg.jsp">Login/Register</a>
+        <a class="nav-link" href="reg.jsp">Register</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Help</a>
@@ -21,7 +21,18 @@
       </li>
     </ul>
     <span class="navbar-text">
-     Text to be shown here
+        <form class="form-inline" method="POST" action="login.jsp">
+                
+                <label class="sr-only" for="u_email">Email</label>
+                <input type ="text" class="form-control mb-5 mr-sm-5 mb-sm-2" id="u_name" placeholder="Email ID">
+                              
+                <label class="sr-only" for="u_passwd">Password</label>
+                <input type="password" class="form-control mb-5 mr-sm-5 mb-sm-2" id="u_passwd" placeholder="Password">
+              
+            
+                <button type="submit" class="form-control btn btn-primary mb-5 mr-sm-4 mb-sm-2">Login</button>
+                
+            </form>
     </span>
   </div>
 </nav>
