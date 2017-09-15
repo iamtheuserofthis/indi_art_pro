@@ -1,0 +1,38 @@
+<%@ page pageEncoding="UTF-8" %>
+<nav class="navbar navbar-toggleable-md navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href ="#">Website</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Profile
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="profile.jsp">See Profile</a>
+          <a class="dropdown-item" href="editprofile.jsp">Edit Profile</a>
+          <a class="dropdown-item" href="logout.jsp">Logout</a>
+        </div>
+      </li 
+            <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Career</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+               
+        </ul>
+        <span class="navbar-text">
+              <form class="form-inline" method="POST" action="login.jsp">
+                
+                <label class="sr-only" for="u_email">Search</label>
+                <input type ="text" class="form-control mb-5 mr-sm-5 mb-sm-2" name="searh" id="u_name" placeholder="Search">
+            
+                <button typer="submit" class="form-control btn btn-primary mb-5 mr-sm-4 mb-sm-2">Search</button>
+                
+            </form>
+        </span>
+    </div>
+</nav>
+

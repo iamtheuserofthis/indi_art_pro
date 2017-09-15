@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
        <style>
-@import url('https://fonts.googleapis.com/css?family=Adamina|Arima+Madurai|Cinzel|Marcellus+SC|Orbitron|Playball|Playfair+Display:900i|Sarina|Syncopate');
+@import url('https://fonts.googleapis.com/css?family=Playball');
 
 .head-ing{
 font-family: 'Playball', cursive;
@@ -23,12 +23,6 @@ font-family: 'Sarina', cursive;
 font-family: 'Syncopate', sans-serif;*/
 }
 
-.wel-content{
-    @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
-    font-family :'Fira Sans',sans-serif;
-    color: #cccccc;
-    
-}
        
        </style>
 
@@ -66,7 +60,7 @@ font-family: 'Syncopate', sans-serif;*/
             </div>
 
             <div class="container " >
-                <p class="wel-content">This is the content of the container</p>
+              
             </div>
 
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
